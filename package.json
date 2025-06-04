@@ -1,0 +1,24 @@
+{
+  "name": "cypress-tests",
+  "version": "1.0.0",
+  "description": "Cypress E2E Testing Project",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "cypress run",
+    "test:headed": "cypress run --headed",
+    "test:batches": "node run-tests-in-batches.js"
+  },
+  "keywords": [
+    "cypress",
+    "testing",
+    "e2e"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.4.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}
